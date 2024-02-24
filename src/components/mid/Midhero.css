@@ -1,0 +1,21 @@
+.mid-hero {
+  background-image: url("../src/assets/midhero.jpg");
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  height: 50vh;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+.mid-hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+.mid-hero-title {
+  font-family: "Rock Salt", cursive;
+}
+.hero-title h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 7rem;
+}

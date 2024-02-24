@@ -1,0 +1,56 @@
+/* Hero.css */
+
+.hero {
+  background-image: url("../src/assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.hero-content {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-title h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 4rem !important;
+}
+
+.hero-button button {
+  margin-top: 3rem;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-button button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-title h1 {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+
+  .hero-button button {
+    margin-top: 2rem; /* Decrease margin-top for smaller screens */
+    font-size: 16px; /* Decrease button font size for smaller screens */
+  }
+}

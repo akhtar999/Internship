@@ -1,0 +1,25 @@
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c6c2eec;
+  --color-primary: #5cff4d;
+  --color-primary-variant: rgba(77, 255, 95, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+section {
+  margin-top: 1.5rem;
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
