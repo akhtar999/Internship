@@ -10,7 +10,6 @@ const Footer = () => {
         className="footer"
         style={{
           backgroundImage: `url(${footer})`,
-          height: "60vh",
         }}
       >
         <footer className="text-center text-lg-start mt-xl-5 pt-4">
