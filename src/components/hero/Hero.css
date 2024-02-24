@@ -1,7 +1,6 @@
 /* Hero.css */
 
 .hero {
-  background-image: url("../src/assets/hero.jpg");
   background-size: cover;
   background-position: center;
   /* width: 100%; */

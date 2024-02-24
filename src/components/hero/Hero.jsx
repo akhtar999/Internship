@@ -1,9 +1,17 @@
 import React from "react";
 import "./Hero.css";
 
+import hero from "../../assets/hero.jpg";
+
+
 const Hero = () => {
   return (
-    <section className="hero">
+    <section
+      className="hero"
+      style={{
+        backgroundImage: `url(${hero})`,
+      }}
+    >
       <div>
         <div className="hero-content">
           <div className="hero-title">

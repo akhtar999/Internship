@@ -1,9 +1,8 @@
 .mid-hero {
-  background-image: url("../src/assets/midhero.jpg");
+  /* background-image: url("../src/assets/midhero.jpg"); */
   background-size: cover;
   background-position: center;
   /* width: 100%; */
-  height: 50vh;
   display: flex;
   justify-content: center; /* Horizontally center content */
   align-items: center; /* Vertically center content */

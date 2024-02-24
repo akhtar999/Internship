@@ -1,10 +1,18 @@
 import React from "react";
 import "./footer.css";
 
+import footer from "../../assets/footer.jpg";
+
 const Footer = () => {
   return (
     <section>
-      <div className="footer">
+      <div
+        className="footer"
+        style={{
+          backgroundImage: `url(${footer})`,
+          height: "60vh",
+        }}
+      >
         <footer className="text-center text-lg-start mt-xl-5 pt-4">
           <div className="container p-4">
             <div className="row">
